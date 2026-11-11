@@ -1,0 +1,8 @@
+{
+  "name": "bunbloom-garden",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "22.x" },
+  "scripts": { "test": "node test/accounts.test.js", "local": "node test/local-server.js" },
+  "dependencies": { "@vercel/blob": "2.8.2" }
+}
